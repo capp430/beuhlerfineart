@@ -6,147 +6,74 @@
 <title>Beuhler Fine Art</title>
 <link rel="stylesheet" href="styles.css">
 
-<!-- Google Fonts (luxury feel) -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+<!-- NAV -->
 <header class="navbar">
-  <div class="logo">Beuhler Fine Art</div>
+  <a href="#" class="logo">BEUHLER FINE ART</a>
 
   <nav>
     <a href="#">Home</a>
-    <a href="#collection">Collection</a>
-    <a href="#artists">Artists We Acquire</a>
-    <a href="#sell">Sell Your Artwork</a>
+    <a href="artists.html">Artists We Acquire</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-overlay">
+  <div class="hero-content">
     <h1>Early Texas & Southwest Fine Art</h1>
     <p>Curated works for collectors and serious enthusiasts</p>
 
-    <div class="hero-buttons">
-      <a href="#collection" class="btn-primary">View Collection</a>
-      <a href="#contact" class="btn-secondary">Inquire</a>
-    </div>
+    <a href="#contact" class="btn-primary">Inquire</a>
   </div>
-</section>
-
-<!-- COLLECTION -->
-<section id="collection" class="section">
-  <h2>Featured Works</h2>
-
-  <div class="gallery-grid">
-
-    <div class="art-card">
-      <img src="https://via.placeholder.com/400x300">
-      <h3>Artist Name</h3>
-      <p>Artwork Title</p>
-      <button class="btn-outline">Request Details</button>
-    </div>
-
-    <div class="art-card">
-      <img src="https://via.placeholder.com/400x300">
-      <h3>Artist Name</h3>
-      <p>Artwork Title</p>
-      <button class="btn-outline">Request Details</button>
-    </div>
-
-    <div class="art-card">
-      <img src="https://via.placeholder.com/400x300">
-      <h3>Artist Name</h3>
-      <p>Artwork Title</p>
-      <button class="btn-outline">Request Details</button>
-    </div>
-
-  </div>
-</section>
-
-<!-- ARTISTS -->
-<section id="artists" class="section alt">
-  <h2>Artists We Acquire</h2>
-
-  <p class="center-text">
-    We are actively seeking works by notable Texas and regional artists.
-  </p>
-
-  <div class="artist-list">
-    <p>Thomas Allen</p>
-    <p>Lillian Prescott Anthoni</p>
-    <p>Jose Arpa</p>
-    <p>Hale Bolton</p>
-    <p>Mary Bonner</p>
-    <p>E. L. Boone</p>
-  </div>
-</section>
-
-<!-- SELL ART -->
-<section id="sell" class="section">
-  <h2>Sell Your Artwork</h2>
-
-  <p class="center-text">
-    We are actively acquiring select works. Submit details below for review.
-  </p>
-
-  <form action="https://formspree.io/f/YOUR_ID" method="POST" class="form">
-
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <input type="tel" name="phone" placeholder="Phone Number">
-
-    <textarea name="message" placeholder="Describe your artwork"></textarea>
-
-    <button type="submit" class="btn-primary">Submit Inquiry</button>
-  </form>
 </section>
 
 <!-- CONTACT + ABOUT -->
-<section id="contact" class="section alt">
-  <h2>Contact</h2>
+<section id="contact" class="section">
 
   <div class="contact-grid">
 
-    <!-- CONTACT INFO -->
     <div>
+      <h2>Contact</h2>
+
       <p><strong>Phone:</strong> (210) 288-6544</p>
       <p><strong>Location:</strong> San Antonio, Texas</p>
 
       <p class="note">
         Appointments available by request. Many works sell before appearing online.
       </p>
+
+      <p class="note">
+        Looking to sell artwork? Include details in your message below.
+      </p>
     </div>
 
-    <!-- CONTACT FORM -->
     <form action="https://formspree.io/f/YOUR_ID" method="POST" class="form">
-
       <input type="text" name="name" placeholder="Name" required>
       <input type="email" name="email" placeholder="Email" required>
-
-      <textarea name="message" placeholder="Your message"></textarea>
-
+      <textarea name="message" placeholder="Your message or artwork details"></textarea>
       <button type="submit" class="btn-primary">Send Message</button>
     </form>
 
   </div>
 
-  <!-- ABOUT (you fill later) -->
+  <!-- ABOUT -->
   <div class="about">
-    <h3>About</h3>
+    <h2>About</h2>
     <p>
-      <!-- You will fill this in -->
-      Beuhler Fine Art is dedicated to sourcing and placing exceptional works of early Texas and regional art.
+      Beuhler Fine Art specializes in early Texas and regional paintings, working directly with collectors to acquire and place significant works.
     </p>
   </div>
 
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
+  <p>(210) 288-6544 | San Antonio, Texas</p>
   <p>© 2026 Beuhler Fine Art. All rights reserved.</p>
 </footer>
 
