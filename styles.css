@@ -244,3 +244,97 @@ input, textarea {
   margin-top: 60px;
   text-align: center;
 }
+/* =========================
+   ARTISTS PAGE FIX
+========================= */
+
+/* Ensure full-page layout works */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;
+}
+
+/* Fix navbar (your existing class) */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #e5e2dc;
+}
+
+/* Make nav horizontal properly */
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Page spacing */
+.artists-section {
+  padding: 100px 0;
+}
+
+/* Better title spacing */
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* GRID IMPROVEMENT */
+.artists-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+/* Column spacing refinement */
+.artists-grid li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  transition: color 0.2s ease;
+}
+
+/* subtle luxury hover */
+.artists-grid li:hover {
+  color: black;
+}
+
+/* CTA polish */
+.artist-cta {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.artist-cta p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* FOOTER FIX (your class is .footer, not site-footer) */
+.footer {
+  margin-top: auto;
+}
