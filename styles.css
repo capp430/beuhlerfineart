@@ -192,3 +192,62 @@ input, textarea {
   font-size: 14px;
   letter-spacing: 1px;
 }
+/* tighter container for better reading */
+.container.narrow {
+  max-width: 1000px;
+}
+
+/* title refinement */
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* subtitle */
+.page-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+/* LIST RESET */
+.artist-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* INDIVIDUAL NAMES */
+.artist-grid li {
+  font-size: 15px;
+  margin-bottom: 12px;
+  letter-spacing: 0.4px;
+  color: #222;
+  transition: color 0.2s ease;
+}
+
+/* subtle hover = luxury detail */
+.artist-grid li:hover {
+  color: #000;
+}
+
+/* CTA */
+.artist-cta {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.artist-cta p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+}
