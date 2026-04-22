@@ -73,7 +73,12 @@ html, body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.15),
+    rgba(0,0,0,0.3)
+  );
+  pointer-events: none;
 }
 
 .hero-content {
@@ -96,7 +101,9 @@ html, body {
   margin-bottom: 30px;
   opacity: 0.9;
 }
-
+.hero {
+  position: relative;
+}
 /* BUTTONS */
 .btn-primary {
   background: black;
