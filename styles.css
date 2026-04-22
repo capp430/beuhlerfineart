@@ -218,42 +218,29 @@ input, textarea {
   margin-bottom: 50px;
 }
 
-/* GRID */
-.artist-grid {
+.page-content {
+  min-height: calc(100vh - 140px);
+}
+
+.artists-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
+  gap: 40px;
+  margin-top: 40px;
 }
 
-/* LIST RESET */
-.artist-grid ul {
+.artists-grid ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-/* INDIVIDUAL NAMES */
-.artist-grid li {
+.artists-grid li {
+  margin-bottom: 10px;
   font-size: 15px;
-  margin-bottom: 12px;
-  letter-spacing: 0.4px;
-  color: #222;
-  transition: color 0.2s ease;
+  color: #333;
 }
 
-/* subtle hover = luxury detail */
-.artist-grid li:hover {
-  color: #000;
-}
-
-/* CTA */
 .artist-cta {
-  margin-top: 80px;
+  margin-top: 60px;
   text-align: center;
-}
-
-.artist-cta p {
-  font-size: 15px;
-  color: #666;
-  margin-bottom: 20px;
 }
