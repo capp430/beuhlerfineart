@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f7f4ef;
+  color: #1a1a1a;
+}
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  height: 85vh;
+  background: url('https://via.placeholder.com/1600x900') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: #1a1a1a;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  padding: 12px 20px;
+  color: white;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 50px;
+}
+
+.alt {
+  background: #efeae2;
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.art-card img {
+  width: 300px;
+}
+
+.art-card {
+  text-align: center;
+}
+
+/* FORMS */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+/* CONTACT */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
